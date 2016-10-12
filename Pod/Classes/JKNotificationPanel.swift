@@ -30,7 +30,7 @@ open class JKNotificationPanel: NSObject {
     var tapGesture:UITapGestureRecognizer!
     var verticalSpace:CGFloat = 0
     
-    var withView:UIView!
+    open var withView:UIView!
     var navigationBar:UINavigationBar?
     
     public override init() {
